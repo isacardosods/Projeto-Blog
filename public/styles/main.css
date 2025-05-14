@@ -25,6 +25,13 @@ header{
     align-items: center;
 }
 
+header #logo{ 
+    font-family: stardew, serif; 
+    font-size: 2rem; 
+    font-weight: 800; 
+    letter-spacing: 5px; 
+}
+
 header, nav, ul, li, a{
     text-decoration: none;
     font-weight: 700;
@@ -34,6 +41,11 @@ header, nav, ul, li, a{
 
 header, nav, .navbar-links{
     list-style: none;
+}
+
+nav{
+    left: 50%;
+    transform: translateX(-20%);
 }
 
 nav, .navbar-links, li{
@@ -50,7 +62,7 @@ nav, .navbar-links, li, a:hover{
 }
 
 header, .login-button button{
-    padding: 9px 25px;
+    padding: 10px 25px;
     font-size: 1.8rem;
     border: none;
 
